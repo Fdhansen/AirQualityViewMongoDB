@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirQualityViewMongoDB", "AirQualityViewMongoDB\AirQualityViewMongoDB.csproj", "{22D13B76-92E0-4279-89E0-69909EB71207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D13B76-92E0-4279-89E0-69909EB71207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D13B76-92E0-4279-89E0-69909EB71207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D13B76-92E0-4279-89E0-69909EB71207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D13B76-92E0-4279-89E0-69909EB71207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F62A068-F8A9-4791-ACF3-1C1A88E399F5}
+	EndGlobalSection
+EndGlobal
