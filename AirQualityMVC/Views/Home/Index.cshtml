@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AirQualityMVC.Models.AirQuality>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Navn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DatoMaerke)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expr1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProduktId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RaaResultat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StofNavn)
+        </th>
+    </tr>
+    
+@foreach(var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Navn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DatoMaerke)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Expr1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProduktId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RaaResultat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StofNavn)
+        </td>
+    </tr>
+    }
+</table>
